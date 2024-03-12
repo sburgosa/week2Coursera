@@ -4,13 +4,30 @@ body {
 }
 
 header {
-    background-color: lightblue;
+    background-color: lightgray;
 }
 
 nav {
     background-color: lightgrey;
+    display: inline-block;
+    width: 80%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav img {
+    width: 10%;
+    position: relative;
+    top: 20px;
 }
 
 main {
@@ -22,10 +39,10 @@ footer {
     background-color: lightgray;
 }
 
-li {
+/*li {
     display: flexbox;
     width: 100px;
-}
+}*/
 
 h1 {
     text-align: left;

@@ -57,7 +57,20 @@ p {
 .to-grid {
     display: grid;
     grid-template-columns: 40% 40%;
+    justify-content: space-around;
+
 }
+
 .to-grid img {
     width: 100%;
 }
+
+.to-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* .to-flex img {
+    width: 100%;
+} */

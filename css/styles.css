@@ -1,0 +1,38 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120%;
+}
+
+header {
+    background-color: lightblue;
+}
+
+nav {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    background-color: yellow;
+    font-size: 120%;
+}
+
+footer {
+    background-color: lightgray;
+}
+
+li {
+    display: flexbox;
+    width: 100px;
+}
+
+h1 {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+}
+
+p {
+    line-height: 32px;
+}
